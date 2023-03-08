@@ -1,0 +1,67 @@
+/*BASE COMPONENTS*/
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.4fr 2fr 0.6fr;
+    grid-auto-columns: 1fr;
+    grid-auto-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "header-left header-right"
+      "body body"
+      "footer footer";
+  }
+  
+  .header {
+     grid-area: header;
+
+     }
+
+  .header-left {
+     grid-area: header-left;
+     background: #FFF500;
+     }
+  .header-right { 
+    grid-area: header-right;
+    background: #FFF500;
+}
+  
+  .body { 
+    grid-area: body;
+    background: #000000;
+ }
+  
+  .footer { 
+    grid-area: footer;
+    background: #FFF500;
+}
+
+  h1{
+    font-family: Inter;
+    font-weight: 400;
+    text-shadow: 0px 2px 3px #000000;
+  }
+
+  /*HEADER*/
+  #logotext{
+    padding-top: 0.7em;
+    width: 600px;
+  }
+  
+  #logo{
+    float:left;
+    padding-left: 6em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-right: 1.2em;
+  }
+
+  .headertabs{
+    font-family: Inter;
+    font-weight: 200;
+    float: right;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 1em;
+  }
