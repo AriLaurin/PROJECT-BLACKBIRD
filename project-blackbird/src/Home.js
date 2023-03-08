@@ -7,21 +7,18 @@ const Home = () => {
 
   return (
     <div className="home">
-      <div className="container">
-          
-    <div class="header-left">
+
+      <div className="header">
+        <div className="header-left">
           <img id="logo" src={logo} alt="Logo" width="91px" height="100px"/>
           <h1 id="logotext">BLACKBIRD PROJECT</h1>
-    </div>
-    <div class="header-right">
+        </div>
+        <div className="header-right">
           <h2 className="headertabs">ABOUT US</h2>
           <h2 className="headertabs">PROJECTS</h2>
-    </div>
-        <div className="body">
         </div>
-        <div className="footer"></div>
       </div>
-      {/* End of Container ^ */}
+
     </div>
   );
 }
