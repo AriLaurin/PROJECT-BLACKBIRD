@@ -22,7 +22,7 @@ const Home = () => {
 
       <div className="body">
         <div className="welcome-card">
-        <img src={crowgif} alt="Crows" width="100%" height="95%"/>
+        <img src={crowgif} alt="Crows" id="crow-bg"/>
         </div>
         <div className="content">
 

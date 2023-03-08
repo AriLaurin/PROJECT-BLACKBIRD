@@ -69,9 +69,20 @@
     text-shadow: 0px 2px 3px #000000;
   }
 
+  p{
+    font-family: Inter;
+    font-weight: 200;
+    color: #FFFF;
+  }
+
+  #crow-bg{
+    object-fit: fill;
+  }
+
   /*HEADER*/
   #logotext{
     padding-left: 1em;
+
   }
   
   #logo{
