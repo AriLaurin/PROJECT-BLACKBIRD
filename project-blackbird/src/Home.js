@@ -1,4 +1,5 @@
 // import useFetch from "./useFetch";
+import "./home.css";
 
 const Home = () => {
   // const { error, isPending, data: blogs } = useFetch('http://localhost:8000/blogs')
