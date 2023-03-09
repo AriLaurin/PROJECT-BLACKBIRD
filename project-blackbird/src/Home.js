@@ -22,9 +22,10 @@ const Home = () => {
 
       <div className="body">
         <div className="welcome-card">
-        <img src={crowgif} alt="Crows" id="crow-bg"/>
+        {/* <img src={crowgif} alt="Crows" id="crow-bg"/> */}
         </div>
-        <div className="content">
+
+        <div className="bodyContent">
         <p>test</p>
         <p>test</p>
         <p>test</p>

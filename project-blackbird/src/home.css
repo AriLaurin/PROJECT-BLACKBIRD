@@ -73,18 +73,12 @@ a:hover{
 /*BODY COMPONENTS*/
 .body {
   display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr;
-  grid-auto-columns: 1fr;
-  grid-auto-rows: 1fr;
   gap: 0px 0px;
   grid-auto-flow: row;
   background: #000000;
-}
-  
-  .footer { 
-    grid-area: footer;
-    background: #FFF500;
+  overflow: hidden;
+  height: min-content;
+
 }
 
   h1{
@@ -99,9 +93,23 @@ a:hover{
     color: #FFFF;
   }
 
-  #crow-bg{
+.welcome-card{
+  height: auto;
+  background-size: cover;
+  width: 100%;
+  height: 75vh;
+  /* border: solid 3px red; */
+  background-image: url(./img/crow-ravens.gif);
+  background-position: 50%;
+}
+
+.bodyContent {
+
+}
+
+  /* #crow-bg{
     background-size: cover;
-  }
+  } */
 
 /*footer COMPONENTS*/
 .footer {
