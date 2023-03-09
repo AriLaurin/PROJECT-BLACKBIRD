@@ -15,8 +15,8 @@ const Home = () => {
           <h1 id="logotext">BLACKBIRD PROJECT</h1>
         </div>
         <div className="header-right">
-          <h2 className="headertabs">ABOUT US</h2>
-          <h2 className="headertabs">PROJECTS</h2>
+          <a href="./NotFound" className="headertabs">ABOUT US</a>
+          <a href="./NotFound" className="headertabs">PROJECTS</a>
         </div>
       </div>
 
@@ -25,8 +25,30 @@ const Home = () => {
         <img src={crowgif} alt="Crows" id="crow-bg"/>
         </div>
         <div className="content">
+        <p>test</p>
+        <p>test</p>
+        <p>test</p>
+        <p>test</p>
+        <p>test</p>
+        <p>test</p>
+        <p>test</p>
+        <p>test</p>
+        <p>test</p>
+        <p>test</p>
 
         </div>
+      </div>
+
+      <div className="footer">
+      <div className="footer-left">
+      <h2>// CONTACTS</h2>
+      </div>
+      <div className="footer-middle">
+
+      </div>
+      <div className="footer-right">
+
+      </div>
       </div>
 
     </div>
