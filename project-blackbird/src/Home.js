@@ -42,10 +42,11 @@ const Home = () => {
 
       <div className="footer">
       <div className="footer-left">
-      <h2>// CONTACTS</h2>
+      <h2 id="contacts">// CONTACTS</h2>
+      <a href="https://twitter.com/meniaclol" target="_blank">@meniaclol</a>
       </div>
       <div className="footer-middle">
-
+        <p>© 2023 ALL RIGHTS RESERVED</p>
       </div>
       <div className="footer-right">
 
