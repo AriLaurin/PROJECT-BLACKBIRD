@@ -1,7 +1,6 @@
 // import useFetch from "./useFetch";
 import "./home.css";
 import logo from "./img/BBPlogo.png";
-import crowgif from "./img/crow-ravens.gif";
 
 const Home = () => {
   // const { error, isPending, data: blogs } = useFetch('http://localhost:8000/blogs')
@@ -22,7 +21,6 @@ const Home = () => {
 
       <div className="body">
         <div className="welcome-card">
-        {/* <img src={crowgif} alt="Crows" id="crow-bg"/> */}
         </div>
 
         <div className="bodyContent">
