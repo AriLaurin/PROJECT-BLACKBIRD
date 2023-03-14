@@ -38,6 +38,8 @@ p{
 /*header COMPONENTS*/
 .header {
     display: grid;
+    position: sticky;
+    top: 0;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     grid-auto-columns: 1fr;
@@ -100,17 +102,24 @@ p{
 }
 
 .welcome-card{
-  height: auto;
   background-size: cover;
   width: 100%;
-  height: 75vh;
+  min-height: 75vh;
   /* border: solid 3px red; */
   background-image: url(./img/crow-ravens.gif);
   background-position: 50%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .bodyContent {
+margin-bottom: 1000px;
+}
 
+.bodyContent > p {
+  color: white;
 }
 
   /* #crow-bg{
